@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: Latebeaver
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: A London-based product manager for data products
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["data","analytics","data visualisation"]
 
 #
 ###################################
@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: El No
+  name: Hi! My name is El No
   avatar:
   job:
-  bio: "A product manager for data products"
+  bio: "A London-based product manager for data products"
   email: lubynoel@gmail.com
   disqus-shortname:
   twitter: #username
@@ -51,7 +51,7 @@ owner:
   github: #username
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: https://www.linkedin.com/in/elno24/
+  linkedin: elno24
   skype: #username
   xing: #username
   instagram: #username
