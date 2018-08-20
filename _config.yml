@@ -37,7 +37,7 @@ owner:
   avatar:
   job:
   bio: "A London-based product manager for data products"
-  email: lubynoel@gmail.com
+  email:
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -51,7 +51,7 @@ owner:
   github: #username
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: elno24
+  linkedin:
   skype: #username
   xing: #username
   instagram: #username
