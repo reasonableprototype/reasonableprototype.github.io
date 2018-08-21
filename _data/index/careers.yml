@@ -1,0 +1,16 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Concentra Analytics UK
+  link: http://www.concentra.co.uk/
+  date: 2014 - Current
+  job: Product Manager - Analytics & Visualisation Products
+
+- name: The Nielsen Company Korea
+  link: http://www.nielsen.com/
+  date: 2012 - 2013
+  job: Senior Consultant - Marketing Effectiveness
+
+- name: IBM Korea
+  link: https://www.sap.com/
+  date: 2008 - 2011
+  job: Management Consultant
