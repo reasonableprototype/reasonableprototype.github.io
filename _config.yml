@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Latebeaver
+title: El No
 email:
 description: A London-based product manager for data products
 url: # the base hostname & protocol for your site
@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Latebeaver
+  name: El No
   avatar:
-  job:
-  bio: "A London-based product manager for data products"
+  job: "A London-based product manager for data products"
+  bio:
   email:
   disqus-shortname:
   twitter: #username

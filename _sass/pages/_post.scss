@@ -1,6 +1,6 @@
 // Post listing
 .post-listing {
-  background-color: $white;
+  background-color: $background-color;
   position: absolute;
   top: 400px;
   z-index: 233;
@@ -23,7 +23,7 @@
   float: right;
   font-weight: bold;
   font-style: italic;
-  color: $info;
+  color: $secondary;
   font-size: 13px;
   padding-right: 20px;
 }
@@ -55,7 +55,7 @@ section.post {
 	margin-left: 10px;
 	&:hover,
 	&:focus {
-		color: lighten($primary, 14%);
+		color: $info;
 	}
 }
 
@@ -67,15 +67,15 @@ section.post {
 		color: $secondary;
 	}
 	.post-author {
-		text-transform: uppercase;
-		color: $warning;
+		text-transform: none;
+		color: secondary;
 	}
   .post-cat {
-		text-transform: uppercase;
-		color: $warning;
+		text-transform: none;
+		color: #000000;
 	}
   .read-time {
-    color: $primary;
+    color: $secondary;
   }
 }
 
