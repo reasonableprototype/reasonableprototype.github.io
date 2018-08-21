@@ -486,9 +486,9 @@ small, .small { font-size: 80%; font-weight: normal; }
 p { margin: 1.2em 0; word-spacing: 0.05em; line-height: 1.6em; }
 
 /* Buttons ========================================================================== */
-.btn { display: inline-block; margin-bottom: 20px; padding: 8px 20px; font-size: 0.875em; font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; background-color: #0C0040; color: #fff; border-width: 2px !important; border-style: solid !important; border-color: #0C0040; text-decoration: none !important; border-radius: 5px; }
-.btn:visited { color: #fff; border-color: #0C0040; }
-.btn:hover { background-color: #fff; color: #0C0040; border-color: #0C0040; }
+.btn { display: inline-block; margin-bottom: 20px; padding: 8px 20px; font-size: 0.875em; font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; background-color: transparent; color: #959595; border-width: 1px !important; border-style: solid !important; border-color: #959595; text-decoration: none !important; border-radius: 5px; }
+.btn:visited { color: transparent; border-color: #959595; }
+.btn:hover { background-color: transparent; color: #bbbbbb; border-color: #bbbbbb; }
 
 .btn-success { background-color: #65e892; color: #fff; border-color: #65e892; }
 .btn-success:visited { color: #fff; border-color: #65e892; }
@@ -589,7 +589,7 @@ pre code span { word-break: break-all; }
 .cover-card { color: #303030; padding: 0 30px; }
 .cover-card .avatar { border-radius: 50%; width: 100px; height: 100px; float: none; }
 .cover-card .author_name { display: block; color: #0C0040; font-size: 2em; text-transform: none; }
-.cover-card .author_job { display: block; color: #959595; font-size: 1.5em; font-weight: 700; text-transform: none; margin: -5px auto 10px; }
+.cover-card .author_job { display: block; color: #959595; font-size: 1em; font-weight: 700; text-transform: none; margin: -5px auto 10px; }
 .cover-card .author_bio { font-size: 90%; display: block; }
 @media only screen and (min-width: 992px) { .cover-card { text-align: right; margin: 0 auto; padding: 0 0px 80px; } }
 
@@ -639,7 +639,7 @@ ul.tag-cloud li a.post-tag { border-radius: 0.2em; }
 
 section.post { margin-bottom: 80px; }
 
-.back-home a { font-size: 13px; font-weight: bold; color: #CAFF00; border: 1px solid #a3a3a3; border-radius: 0.4em; padding: 0.5em 1em; }
+.back-home a { font-size: 12px; font-weight: bold; color: #CAFF00; border: 0.5px solid #a3a3a3; border-radius: 0.4em; padding: 0.5em 1em; }
 
 .post-title-link { color: #0C0040; font-size: 14px; margin-left: 10px; }
 .post-title-link:hover, .post-title-link:focus { color: #CAFF00; }

@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<a class="btn" href= "{{ site.url }}/" >
-  Home
-</a>
+<a class="btn" href= "{{ site.url }}/" >back to list</a>
 {% if page.image.feature %}
 <div class="post-image-feature">
   <img class="feature-image" src=
@@ -16,7 +14,7 @@ layout: default
   alt="{{ page.title }} feature image">
 
   {% if page.image.credit %}
-  <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  <span class="image-credit">Photo credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
   {% endif %}
 </div><!-- /.image-wrap -->
 {% endif %}
