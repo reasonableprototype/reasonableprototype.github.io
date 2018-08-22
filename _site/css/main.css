@@ -606,6 +606,8 @@ pre code span { word-break: break-all; }
 .nav-list .nav-item a { margin-top: 1em; text-transform: uppercase; font-size: 100%; color: #959595; }
 .nav-list .nav-item a:hover, .nav-list .nav-item a:focus { color: #CAFF00; }
 
+.footer { color: #959595; font-size: 80%; }
+
 ul.tag-cloud { padding: 2em 0 3em; margin: 0; overflow: hidden; list-style: none; }
 ul.tag-cloud li { display: inline-block; margin-right: .5em; }
 ul.tag-cloud li a.post-tag { border-radius: 0.2em; }
