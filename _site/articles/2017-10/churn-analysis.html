@@ -8,16 +8,16 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Is it wise to carry your umbrella all the time in London?">
+  <meta name="description" content="Getting Survival Curves on user's finger">
   <meta name="keywords" content="data, analytics, and data visualisation">
-  <meta name="author" content="Measuring marketing effectiveness | El No">
+  <meta name="author" content="Making analytics accessible | El No">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f5f5f5">
 
   <!-- Twitter Tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Measuring marketing effectiveness | El No">
-  <meta name="twitter:description" content="Is it wise to carry your umbrella all the time in London?">
+  <meta name="twitter:title" content="Making analytics accessible | El No">
+  <meta name="twitter:description" content="Getting Survival Curves on user's finger">
   
     <meta property="twitter:image" content="http://localhost:4000/img/leonids-logo.png">
   
@@ -25,12 +25,12 @@
   <!-- Open Graph Tags -->
   <meta property="og:type" content="blog">
   <meta property="og:url" content="http://localhost:4000/articles/2017-10/churn-analysis">
-  <meta property="og:title" content="Measuring marketing effectiveness | El No">
-  <meta property="og:description" content="Is it wise to carry your umbrella all the time in London?">
+  <meta property="og:title" content="Making analytics accessible | El No">
+  <meta property="og:description" content="Getting Survival Curves on user's finger">
   
     <meta property="og:image" content="http://localhost:4000/img/leonids-logo.png">
   
-  <title>Measuring marketing effectiveness | El No</title>
+  <title>Making analytics accessible | El No</title>
 
   <!-- CSS files -->
   <link rel="stylesheet" href="http://localhost:4000/css/font-awesome.min.css">
@@ -131,7 +131,7 @@
 
 <div id="post">
   <header class="post-header">
-    <h1 title="Measuring marketing effectiveness">Measuring marketing effectiveness</h1>
+    <h1 title="Making analytics accessible">Making analytics accessible</h1>
     <span class="post-meta">
       <span class="post-date">
         10 OCT 2017
@@ -149,19 +149,60 @@
   </header>
 
   <article class="post-content">
-    <p>Content to come</p>
+    <p>Survival Curves is one of the features provided for Attrition and Retention Analysis as part of Advanced Org Analytics Module in <a href="https://orgvue.com">OrgVue</a>.</p>
 
-<p>(summary)</p>
+<h4 id="objectives-and-business-questions">Objectives and business questions</h4>
 
-<h3 id="background">Background</h3>
+<ul>
+  <li>To prevent top talent from leaving the organisation,</li>
+  <li>Understand attrition for a particular time period – when, where and why is happening (Descriptive)
+    <ul>
+      <li><strong>When</strong> employees are likely to leave (tenure/ lifetime)</li>
+      <li><strong>Where</strong> attrition is occurring? </li>
+      <li>Other related metrics (turnover rate) by group/ cohort</li>
+      <li>How does the trend change <strong>over time</strong>?</li>
+    </ul>
+  </li>
+  <li><strong>Who</strong> is likely to leave in the next year? (Predictive)</li>
+  <li>What can we do to affect turnover? (Prescriptive) 
+    <ul>
+      <li>Identify key attributes causing attrition</li>
+    </ul>
+  </li>
+</ul>
 
-<h3 id="challenge">Challenge</h3>
+<h4 id="actions-enabled">Actions enabled</h4>
+<ul>
+  <li>Focus attention the most at-risk employees / segments</li>
+  <li>Determine the most effective retention strategies and create programmes</li>
+</ul>
 
-<h3 id="approach">Approach</h3>
+<h4 id="a-series-of-analytics-and-reporting-features-can-help-answer-different-business-questions">A series of analytics and reporting features can help answer different business questions</h4>
+<ul>
+  <li>Survival Analysis: for each group shows the percentage of employees that leave after a given tenure (can be calculated from hazard rate) probability</li>
+  <li>Cohort Analysis for actual retention/ turnover rates : Employee lifetime by cohort, actual numbers based on historic data</li>
+  <li>Attrition drivers / predictors using Decision tree: Show what are the key factors contributing to attrition , show top drivers and the degree of influence</li>
+  <li>Employees with high flight risk : Categorise employees based on risk level (likelihood of leaving), show number of employees with high flight risk by dimension</li>
+  <li>Other related KPIs and changes overtime</li>
+</ul>
 
-<p>images</p>
+<h4 id="mvp">MVP</h4>
 
-<h3 id="results">Results</h3>
+<p>Q1: How the likelihood of staying/ leaving differ by group?</p>
+
+<p>Features:
+Using start and end date produces 2 charts - Line graph for hazard distribution curve (turnover), Stepped line graph for survival curve using employee start and end date data
+Option to display confidence interval
+Use Color Panel to choose group – dependant on data availability
+Number of groups can be ranged from 2 to 30+ e.g. country offices
+Ability to set a control group
+An toggle to split and plot all groups on one chart</p>
+
+<p><img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-1.png" alt="" /></p>
+
+<p><img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-2.png" alt="" /></p>
+
+<p><img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/3-curves.png" alt="" /></p>
 
   </article>
 </div>

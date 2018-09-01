@@ -5,7 +5,7 @@
 #
 title: El No
 email:
-description: A London-based product manager for data analytics & visualisation products
+description: data + technology + strategy
 url: # the base hostname & protocol for your site
 keywords: ["data","analytics","data visualisation"]
 
@@ -35,7 +35,7 @@ kramdown:
 owner:
   name: El No
   avatar:
-  job: "A London-based product manager for data analytics & visualisation products"
+  job: "data + technology + strategy"
   bio:
   email:
   disqus-shortname:

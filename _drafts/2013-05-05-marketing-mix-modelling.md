@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Measuring marketing effectiveness"
-excerpt: "Is it wise to carry your umbrella all the time in London?"
+excerpt: "Quantifying effectiveness of investment in Olympics sponsorship"
 categories: [analytics projects / delivery]
 share: true
 image:

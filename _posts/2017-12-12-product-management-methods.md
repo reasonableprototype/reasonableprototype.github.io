@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Product management methods"
+title: "Defining and implementing product management methods for OrgVue"
 excerpt: ".."
 categories: [analytics products]
 share: true
@@ -10,16 +10,27 @@ image:
   creditlink:
 ---
 
-Content to come
+[OrgVue](https://orgvue.com) is a cloud-based data analytics software specialising in org modelling. The team behind is 30 developers. Until 2017, it didn't have a concept of product management or roadmap. As a first product manager for OrgVue, I've brought structure and rigour to the ideas to launch process to the team.
 
-(summary)
+### 1. Product roadmap
 
-### Background
+Pitched to stakeholders on importance of having a roadmap that can be communicated internally and externally, and come up with a sharable product roadmap.
 
-### Challenge
+![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/what-is-product-roadmap.png)
 
-### Process
+### 2. Backlog prioritisation methods
 
-images
+Implemented structured process to collect, categorise and prioritse backlog items.
 
-### Results
+![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/prioritisation-process.png)
+
+Depending on the product, used different approach for determining priority.
+
+![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/prioritisation-model.png)
+
+
+### 3. Continuous innovation
+
+Being a B2B software implemented with advisory (analytics) services, capturing and embedding new IPs from the projects is critical to continuous product innovation. I've defined IP-led product innovation process.
+
+![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/ip-led-product-innovation.png)
