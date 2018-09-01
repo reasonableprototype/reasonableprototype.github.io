@@ -13,5 +13,5 @@ image:
 
 **Click the link below to read on**
 
-[English blog](http://blog.orgvue.com/functions-of-colours-in-data-visualisations/)<br>
-[Korean blog](https://brunch.co.kr/@latebeaver/8)
+[in English](http://blog.orgvue.com/functions-of-colours-in-data-visualisations/)<br>
+[in Korean](https://brunch.co.kr/@latebeaver/8)

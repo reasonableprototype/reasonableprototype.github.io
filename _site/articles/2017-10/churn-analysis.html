@@ -8,16 +8,16 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Getting Survival Curves on user's finger">
+  <meta name="description" content="An example of making sophisticated statistical analysis accessible through productisation.">
   <meta name="keywords" content="data, analytics, and data visualisation">
-  <meta name="author" content="Making analytics accessible | El No">
+  <meta name="author" content="Building an analytics feature that answer business questions | El No">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f5f5f5">
 
   <!-- Twitter Tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Making analytics accessible | El No">
-  <meta name="twitter:description" content="Getting Survival Curves on user's finger">
+  <meta name="twitter:title" content="Building an analytics feature that answer business questions | El No">
+  <meta name="twitter:description" content="An example of making sophisticated statistical analysis accessible through productisation.">
   
     <meta property="twitter:image" content="http://localhost:4000/img/leonids-logo.png">
   
@@ -25,12 +25,12 @@
   <!-- Open Graph Tags -->
   <meta property="og:type" content="blog">
   <meta property="og:url" content="http://localhost:4000/articles/2017-10/churn-analysis">
-  <meta property="og:title" content="Making analytics accessible | El No">
-  <meta property="og:description" content="Getting Survival Curves on user's finger">
+  <meta property="og:title" content="Building an analytics feature that answer business questions | El No">
+  <meta property="og:description" content="An example of making sophisticated statistical analysis accessible through productisation.">
   
     <meta property="og:image" content="http://localhost:4000/img/leonids-logo.png">
   
-  <title>Making analytics accessible | El No</title>
+  <title>Building an analytics feature that answer business questions | El No</title>
 
   <!-- CSS files -->
   <link rel="stylesheet" href="http://localhost:4000/css/font-awesome.min.css">
@@ -131,7 +131,7 @@
 
 <div id="post">
   <header class="post-header">
-    <h1 title="Making analytics accessible">Making analytics accessible</h1>
+    <h1 title="Building an analytics feature that answer business questions">Building an analytics feature that answer business questions</h1>
     <span class="post-meta">
       <span class="post-date">
         10 OCT 2017
@@ -140,7 +140,7 @@
       <span class="read-time" title="Estimated read time">
   
   
-    1 min read
+    2 mins read
   
 </span>
 
@@ -149,60 +149,99 @@
   </header>
 
   <article class="post-content">
-    <p>Survival Curves is one of the features provided for Attrition and Retention Analysis as part of Advanced Org Analytics Module in <a href="https://orgvue.com">OrgVue</a>.</p>
+    <p>Survival analysis is an statistical method usually used in the medical field as it’s useful in analysing the expected duration of time until an event happen. In HR analtyics, reporting on and predicting (hence preventing) employee churn (employee turn-over) is one of the important topics. With a data science and engineering team, I’ve built Survival Curves feature into the <a href="https://orgvue.com">OrgVue</a> to help organisations to better understand when and where employee attrition is happening and plan and execute on retention programmes. This is an example of making sophisticated statistical analysis accessible through productisation.</p>
 
-<h4 id="objectives-and-business-questions">Objectives and business questions</h4>
+<h4 id="process">Process</h4>
+
+<p><strong>1. Defined objectives and key business questions</strong></p>
 
 <ul>
   <li>To prevent top talent from leaving the organisation,</li>
-  <li>Understand attrition for a particular time period – when, where and why is happening (Descriptive)
+  <li>Understand attrition pattern for a particular time period – when, where and why is happening (Descriptive)
     <ul>
-      <li><strong>When</strong> employees are likely to leave (tenure/ lifetime)</li>
-      <li><strong>Where</strong> attrition is occurring? </li>
-      <li>Other related metrics (turnover rate) by group/ cohort</li>
+      <li><strong>When</strong> employees are likely to leave in their tenure</li>
+      <li><strong>Where</strong> attrition is occurring (i.e. which segment has higher flight risk)? </li>
+      <li>How does the trend differ by group or cohort?</li>
       <li>How does the trend change <strong>over time</strong>?</li>
     </ul>
   </li>
   <li><strong>Who</strong> is likely to leave in the next year? (Predictive)</li>
-  <li>What can we do to affect turnover? (Prescriptive) 
+  <li>What can we do to affect turn-over? (Prescriptive) 
     <ul>
       <li>Identify key attributes causing attrition</li>
     </ul>
   </li>
 </ul>
 
-<h4 id="actions-enabled">Actions enabled</h4>
+<p><strong>2. Created a list of possible analytics and reporting features can help answer different business questions</strong></p>
 <ul>
-  <li>Focus attention the most at-risk employees / segments</li>
-  <li>Determine the most effective retention strategies and create programmes</li>
+  <li>Survival Analysis: for each group shows the percentage of employees that leave after a given tenure probability</li>
+  <li>Cohort Analysis for retention/ turnover rates : employee lifetime by cohort, actual numbers based on historic data</li>
+  <li>Attrition drivers / predictors using Decision tree: show top drivers and the degree of influence</li>
+  <li>Employees with high flight risk : categorise employees based on risk level (likelihood of leaving), show number of employees with high flight risk by dimension</li>
+  <li>Summary report that shows turn-over related KPIs and changes overtime</li>
 </ul>
 
-<h4 id="a-series-of-analytics-and-reporting-features-can-help-answer-different-business-questions">A series of analytics and reporting features can help answer different business questions</h4>
+<p><strong>3. Prioritsed Survival Analysis and defined minimal requirements for release</strong></p>
+
+<p>Based on investigation of current technical viability and target users’ needs, decided to develop Survival Analysis focusing on the business question: “How the likelihood of staying/ leaving differ by group?”</p>
+
+<p>Minimal functional requirements included:</p>
 <ul>
-  <li>Survival Analysis: for each group shows the percentage of employees that leave after a given tenure (can be calculated from hazard rate) probability</li>
-  <li>Cohort Analysis for actual retention/ turnover rates : Employee lifetime by cohort, actual numbers based on historic data</li>
-  <li>Attrition drivers / predictors using Decision tree: Show what are the key factors contributing to attrition , show top drivers and the degree of influence</li>
-  <li>Employees with high flight risk : Categorise employees based on risk level (likelihood of leaving), show number of employees with high flight risk by dimension</li>
-  <li>Other related KPIs and changes overtime</li>
+  <li>Works with the data that contains start and leave dates for each employee</li>
+  <li>User can toggle between three curves, i.e. Surival, Turnover (Cummulative) and Turnover (Period). The survival function is calculated in the background</li>
+  <li>If the data has addition dimension such as gender, it draws curve for each group</li>
 </ul>
 
-<h4 id="mvp">MVP</h4>
-
-<p>Q1: How the likelihood of staying/ leaving differ by group?</p>
-
-<p>Features:
-Using start and end date produces 2 charts - Line graph for hazard distribution curve (turnover), Stepped line graph for survival curve using employee start and end date data
-Option to display confidence interval
-Use Color Panel to choose group – dependant on data availability
-Number of groups can be ranged from 2 to 30+ e.g. country offices
-Ability to set a control group
-An toggle to split and plot all groups on one chart</p>
-
-<p><img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-1.png" alt="" /></p>
+<p>Control Panel designs:<br />
+<img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-1.png" alt="" /></p>
 
 <p><img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-2.png" alt="" /></p>
 
-<p><img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/3-curves.png" alt="" /></p>
+<h4 id="exmaple-product-screenshots">Exmaple product screenshots</h4>
+
+<p>The image below shows example Survival, Turnover (Cummulative) and Turnover (Period) curves produced for female and male group.</p>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+
+<div class="row">
+  <div class="column">
+      <img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-1-survival-prop.png" />
+  </div>
+<div class="row">
+  <div class="column">
+     <img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-2-turnover-prop.png" />
+  </div>
+<div class="row">
+  <div class="column">
+     <img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-3-trunover-rate.png" />
+  </div>
+</div>
+</div></div>
 
   </article>
 </div>

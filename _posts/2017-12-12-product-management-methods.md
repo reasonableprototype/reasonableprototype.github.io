@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Defining and implementing product management methods for OrgVue"
+title: "Defining and implementing product management methods"
 excerpt: ".."
 categories: [analytics products]
 share: true
