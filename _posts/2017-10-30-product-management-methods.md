@@ -10,7 +10,7 @@ image:
   creditlink:
 ---
 
-[OrgVue](https://orgvue.com) is a cloud-based data analytics software specialising in org modelling. The team behind is 30 developers. Until 2017, it didn't have a concept of product management or roadmap. As a first product manager for OrgVue, I've brought structure and rigour to the ideas to launch process to the team.
+[OrgVue](https://www.orgvue.com/) is a cloud-based data analytics software specialising in org modelling. The team behind is 30 developers. Until 2017, it didn't have a concept of product management or roadmap. As a first product manager for OrgVue, I've brought structure and rigour to the ideas to launch process to the team.
 
 ### 1. Product roadmap
 
