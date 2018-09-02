@@ -11,8 +11,8 @@ image:
 ---
 
 
-Survival analysis is an statistical method usually used in the medical field as it's useful in analysing the expected duration of time until an event happen. In HR analtyics, reporting on and predicting (hence preventing) employee churn (employee turn-over) is one of the important topics. With a data science and engineering team, I've built Survival Curves feature into the [OrgVue](https://orgvue.com) to help organisations to better understand when and where employee attrition is happening and plan and execute on retention programmes. This is an example of making sophisticated statistical analysis accessible through productisation.
-
+Survival analysis is an statistical method usually used in the medical field as it's useful in analysing the expected duration of time until an event happen. In HR analtyics, reporting on and predicting (thereby preventing) employee churn (employee turn-over) is one of the important topics. With a data science and engineering team, I've built Survival Curves feature into the [OrgVue](https://orgvue.com) that doesn't require data processing or writing codes to get an output.
+This feature now helps many organisations to better understand when and where employee attrition is happening and plan and execute on retention programmes.
 
 #### Process
 
@@ -45,7 +45,7 @@ Minimal functional requirements included:
 * User can toggle between three curves, i.e. Surival, Turnover (Cummulative) and Turnover (Period). The survival function is calculated in the background
 * If the data has addition dimension such as gender, it draws curve for each group
 
-Control Panel designs:<br>
+Control Panel mock-ups:<br>
 ![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-1.png)
 
 ![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-2.png)

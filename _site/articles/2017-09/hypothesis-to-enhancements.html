@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="data, analytics, and data visualisation">
+  <meta name="author" content="From hypothesis to product enhancements | El No">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f5f5">
+
+  <!-- Twitter Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="From hypothesis to product enhancements | El No">
+  <meta name="twitter:description" content="">
+  
+    <meta property="twitter:image" content="http://localhost:4000/img/leonids-logo.png">
+  
+
+  <!-- Open Graph Tags -->
+  <meta property="og:type" content="blog">
+  <meta property="og:url" content="http://localhost:4000/articles/2017-09/hypothesis-to-enhancements">
+  <meta property="og:title" content="From hypothesis to product enhancements | El No">
+  <meta property="og:description" content="">
+  
+    <meta property="og:image" content="http://localhost:4000/img/leonids-logo.png">
+  
+  <title>From hypothesis to product enhancements | El No</title>
+
+  <!-- CSS files -->
+  <link rel="stylesheet" href="http://localhost:4000/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+
+  <link rel="canonical" href="http://localhost:4000/articles/2017-09/hypothesis-to-enhancements">
+  <link rel="alternate" type="application/rss+xml" title="El No" href="http://localhost:4000/feed.xml" />
+
+  <!-- Icons -->
+  <!-- 16x16 -->
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+  <!-- 32x32 -->
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+</head>
+
+
+<body>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="table cover">
+        
+
+<div class="cover-card table-cell table-middle">
+  
+  <a href="http://localhost:4000" class="author_name">El No</a>
+  <span class="author_job">A London-based product manager for data analytics & visualisation products</span>
+  <span class="author_bio mbm"></span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="http://localhost:4000/about/">About</a>
+        
+      </li>
+              
+      <li class="nav-item">
+        <a href="http://localhost:4000/resume/">Resume</a>
+        
+      </li>
+        
+      <li class="nav-item">
+        <a href="http://localhost:4000/work/">Work</a>
+        
+      </li>
+         
+    </ul>
+  </nav>
+  <script type="text/javascript">
+  // based on http://stackoverflow.com/a/10300743/280842
+  function gen_mail_to_link(hs, subject) {
+    var lhs,rhs;
+    var p = hs.split('@');
+    lhs = p[0];
+    rhs = p[1];
+    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
+    document.write(":" + lhs + "@");
+    document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
+  }
+</script>
+<div class="social-links">
+  <ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</div>
+
+</div>
+
+      </div>
+    </div>
+    <div class="col s12 m9">
+      <div class="post-listing">
+        
+
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="From hypothesis to product enhancements">From hypothesis to product enhancements</h1>
+    <span class="post-meta">
+      <span class="post-date">
+        1 SEP 2017
+      </span>
+      •
+      <span class="read-time" title="Estimated read time">
+  
+  
+    2 mins read
+  
+</span>
+
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <h4 id="background">Background</h4>
+
+<p><a href="https://orgvue.com">OrgVue</a> has a number of visualisation and charting features that help visual analysis of data and generate insights. From the previously conducted usability review on all ~30 charting features, it was identified that Chart Matrix which lets you chart multiple measures and dimensions in a flexible way could be improved to better serve user jobs. Initially identified issues included:</p>
+<ul>
+  <li>Too many functionalities</li>
+  <li>Interaction between the feature’s color panel and main color panel is confusing</li>
+  <li>Legend keys are missing</li>
+  <li>Some of the functionalities behave differently from other visualisation and charting features in the product</li>
+</ul>
+
+<p>I’ve jumped on in-depth investigation to make the case and plan for the development.</p>
+
+<h4 id="process">Process</h4>
+
+<p><strong>1. Conducted a focus group interview to understand user expectations and pain points</strong></p>
+
+<p>I’ve invited 5 users who have data analysis background, the user type which this feature is targeting at. The interview was carried out around the following questions:</p>
+
+<ol>
+  <li>How do you use it?
+    <ul>
+      <li>What are the functionalities you use frequently and rarely?</li>
+      <li>What are the typical steps you follow to build a chart?</li>
+      <li>Do you use all inner label options and size by options?</li>
+      <li>How do you use color for this feature?</li>
+    </ul>
+  </li>
+  <li>What would make this feature more useful – potential use cases?
+    <ul>
+      <li>Improve clarity in control panel?</li>
+      <li>Eliminate or hide some of the advanced options?</li>
+      <li>Add other useful features?</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>2. Based on interviews formed hypotheses and possible required actions</strong></p>
+
+<p><img src="https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/chart-matrix-hypotheses.png" alt="" /></p>
+
+<p><strong>3. Designed a user survey to validate hypotheses and inform decisions</strong></p>
+
+<p>The survey was structured into three parts with open feedback at the end:</p>
+<ul>
+  <li>Part 1. Product experience and expertise</li>
+  <li>Part 2. Interpretation of charting outputs</li>
+  <li>Part 3. Use of each of functionality</li>
+</ul>
+
+<h4 id="some-of-the-key-findings-from-the-survey">Some of the key findings from the survey</h4>
+
+<ul>
+  <li>70% of the respondents said they rarely use this feature or never used it, main reasons include “not sure when to use it”, “hard to interpret”, “hard to configure”, “not presentable to client”</li>
+  <li>Respondents struggled to comprehend the output correctly, i.e. what each element represents - too many values/ aggregates to process at once</li>
+  <li>Average score for the chart interpretation test is 4.4 out of 7, i.e. 63% accuracy. No noticeable difference found between roles and expertise level</li>
+  <li>Respondents said they find it hard to configure what they want both in values and formatting</li>
+  <li>Only 30% respondents were able to correctly how Color buckets work, and many didn’t see the use case for it</li>
+  <li>‘Size by’ is the least understood feature.
+80% didn’t understand how it works and 70% said they won’t use it. 60% couldn’t explain what the size of the segment represent</li>
+</ul>
+
+<h4 id="results-revamped-and-re-launched-the-feature">Results: Revamped and re-launched the feature</h4>
+
+<p>With better understanding of the user jobs and their feedback on the feature, we’ve revamped the Chart Matrix feature and it became easier to use and produces more presentable outputs.</p>
+
+<ul>
+  <li>Removed some of the advanced technical options that were misleading and/or rarely used</li>
+  <li>Instead added new functions that would benefit users, such as ability to control axis, different sorting options</li>
+  <li>Improved control panel so it guides a user through the steps to build a chart</li>
+</ul>
+
+  </article>
+</div>
+
+<a class="btn" href= "http://localhost:4000/" >back to list</a>
+
+        <footer>
+  <div class="footer">
+  &copy; 2018 El No. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://github.com/renyuanz/leonids/">leonids</a>
+  </div>
+</footer>
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="http://localhost:4000/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/main.js"></script>
+
+
+</body>
+</html>

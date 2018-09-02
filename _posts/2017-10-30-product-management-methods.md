@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Defining and implementing product management methods"
-excerpt: ".."
+excerpt: ""
 categories: [analytics products]
 share: true
 image:
