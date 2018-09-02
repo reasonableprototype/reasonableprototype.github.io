@@ -14,7 +14,7 @@ image:
 
 [OrgVue](https://www.orgvue.com/) has a number of visualisation and charting features that help visual analysis of data and generate insights. From the previously conducted usability review on all ~30 charting features, it was identified that Chart Matrix which lets you chart multiple measures and dimensions in a flexible way could be improved to better serve user jobs. Initially identified issues included:
 * Too many functionalities
-* Interaction between the feature's color panel and main color panel is confusing
+* Interaction between the feature's colour configuration and main colour configuration is confusing
 * Legend keys are missing
 * Some of the functionalities behave differently from other visualisation and charting features in the product
 
@@ -31,7 +31,7 @@ I've invited 5 users who have data analysis background, the user type which this
    * What are the functionalities you use frequently and rarely?
    * What are the typical steps you follow to build a chart?
    * Do you use all inner label options and size by options?
-   * How do you use color for this feature?
+   * How do you use colour configuration for this feature?
 2. What would make this feature more useful – potential use cases?
    * Improve clarity in control panel?
    * Eliminate or hide some of the advanced options?
@@ -55,7 +55,7 @@ The survey was structured into three parts with open feedback at the end:
 * Respondents struggled to comprehend the output correctly, i.e. what each element represents - too many values/ aggregates to process at once
 * Average score for the chart interpretation test is 4.4 out of 7, i.e. 63% accuracy. No noticeable difference found between roles and expertise level
 * Respondents said they find it hard to configure what they want both in values and formatting
-* Only 30% respondents were able to correctly how Color buckets work, and many didn’t see the use case for it
+* Only 30% respondents were able to correctly how colour buckets work, and many didn’t see the use case for it
 * ‘Size by’ is the least understood feature.
 80% didn't understand how it works and 70% said they won't use it. 60% couldn't explain what the size of the segment represent
 

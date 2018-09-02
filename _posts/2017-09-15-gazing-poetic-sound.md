@@ -16,4 +16,4 @@ The project suggests a new way of engaging with the poetic text - observing soun
  ![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/gazing-poetic-sound-feature.jpg)
 
 
-[Clik here to see full project description and images]("https://www.behance.net/gallery/56790403/Gazing-poetic-sound")
+**[Clik here to see full project description and images](https://www.behance.net/gallery/56790403/Gazing-poetic-sound)**

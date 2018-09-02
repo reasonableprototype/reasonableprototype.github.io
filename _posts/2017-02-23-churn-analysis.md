@@ -46,9 +46,9 @@ Minimal functional requirements included:
 * If the data has addition dimension such as gender, it draws curve for each group
 
 Control Panel mock-ups:<br>
-![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-1.png)
+![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-controls-mock-up-1.png)
 
-![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-ui-controls-2.png)
+![](https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-controls-mock-up-2.png)
 
 #### Exmaple product screenshots
 
