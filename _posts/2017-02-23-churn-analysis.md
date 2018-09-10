@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building an analytics feature that answer business questions"
+title: "Building an analytics feature that answers business questions"
 excerpt: "An example of making sophisticated statistical analysis accessible through productisation."
 categories: [analytics products]
 share: true
