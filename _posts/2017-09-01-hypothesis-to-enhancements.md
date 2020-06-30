@@ -12,7 +12,7 @@ image:
 
 #### Background
 
-[OrgVue](https://www.orgvue.com/) has a number of visualisation and charting features that help visual analysis of data and generate insights. From the previously conducted usability review on all ~30 charting features, it was identified that Chart Matrix which lets you chart multiple measures and dimensions in a flexible way could be improved to better serve user jobs. Initially identified issues included:
+[orgvue](https://www.orgvue.com/) has a number of visualisation and charting features that help visual analysis of data and generate insights. From the previously conducted usability review on all ~30 charting features, it was identified that Chart Matrix which lets you chart multiple measures and dimensions in a flexible way could be improved to better serve user jobs. Initially identified issues included:
 * Too many functionalities
 * Interaction between the feature's colour configuration and main colour configuration is confusing
 * Legend keys are missing

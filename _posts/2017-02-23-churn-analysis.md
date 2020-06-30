@@ -11,7 +11,7 @@ image:
 ---
 
 
-Survival analysis is an statistical method usually used in the medical field as it's useful in analysing the expected duration of time until an event happen. In HR analtyics, reporting on and predicting (thereby preventing) employee churn (employee turn-over) is one of the important topics. With a data science and engineering team, I've built Survival Curves feature into the [OrgVue](https://www.orgvue.com/) that doesn't require data processing or writing codes to get an output.
+Survival analysis is an statistical method usually used in the medical field as it's useful in analysing the expected duration of time until an event happen. In HR analtyics, reporting on and predicting (thereby preventing) employee churn (employee turn-over) is one of the important topics. With a data science and engineering team, I've built Survival Curves feature into the [orgvue](https://www.orgvue.com/) that doesn't require data processing or writing codes to get an output.
 This feature now helps many organisations to better understand when and where employee attrition is happening and plan and execute on retention programmes.
 
 #### Process
@@ -42,7 +42,7 @@ Based on investigation of current technical viability and target users' needs, d
 
 Minimal functional requirements included:
 * Works with the data that contains start and leave dates for each employee
-* User can toggle between three curves, i.e. Surival, Turnover (Cummulative) and Turnover (Period). The survival function is calculated in the background
+* User can toggle between three curves, i.e. Survival, Turnover (Cumulative) and Turnover (Period). The survival function is calculated in the background
 * If the data has addition dimension such as gender, it draws curve for each group
 
 Control Panel mock-ups:<br>
@@ -52,7 +52,7 @@ Control Panel mock-ups:<br>
 
 #### Exmaple product screenshots
 
-The image below shows example Survival, Turnover (Cummulative) and Turnover (Period) curves produced for female and male group.
+The image below shows example Survival, Turnover (Cumulative) and Turnover (Period) curves produced for female and male group.
 
 <style>
 * {
