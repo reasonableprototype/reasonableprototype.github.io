@@ -5,7 +5,7 @@
 #
 title: El No
 email:
-description: data + technology + strategy
+description: information + technology + society
 url: # the base hostname & protocol for your site
 keywords: ["data","analytics","data visualisation"]
 google_analytics: UA-90199304-2
@@ -37,7 +37,7 @@ kramdown:
 owner:
   name: El No
   avatar:
-  job: "data + technology + strategy"
+  job: "information + technology + society"
   bio:
   email:
   disqus-shortname:
