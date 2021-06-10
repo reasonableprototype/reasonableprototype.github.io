@@ -1,25 +1,25 @@
-site: Gesko
-title: Gesko
+site: reasonable prototype
+title: reasonable prototype
 description: >-
-  just a minimalist, personal blog
+  mini project blog
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
-timezone: Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
-data-theme: dark # default theme "dark" | "light"
+timezone: London
+repo: https://github.com/reasonableprototype/reasonableprototype.github.io # site repo [optional]
+data-theme: light # default theme "dark" | "light"
 
 author:
-  name: p0wex
-  bio: just a minimalist, personal blog
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  name: El No
+  bio: sociologist
+  username: reasonableprototype # general username
+  github: reasonableprototype # github username
+  twitter: reasonableprototype # twitter username
+  email: your-email@email.com # email address
 
 # URL settings
-url: "https://p0wex.github.io/" #
-baseurl: "/Gesko" # leave blank if not wishd
-permalink: "https://p0wex.github.io/Gesko"
+url: "https://reasonableprototype.github.io" #
+baseurl: https://reasonableprototype.github.io # leave blank if not wished
+permalink: 
 permalink: pretty 
 
 
