@@ -1,7 +1,7 @@
 site: reasonable prototype
 title: reasonable prototype
 description: >-
-  mini project blog
+  to be released
 googlewebfonts: Noto+Sans:wght@400;700
 lang: en-US
 timezone: London
@@ -18,9 +18,8 @@ author:
 
 # URL settings
 url: "https://reasonableprototype.github.io" #
-baseurl: https://reasonableprototype.github.io # leave blank if not wished
-permalink: 
-permalink: pretty 
+baseurl: # leave blank if not wished
+permalink: /:title
 
 
 markdown: kramdown
