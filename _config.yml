@@ -2,7 +2,7 @@ site: reasonable prototype
 title: reasonable prototype
 description: >-
   mini project blog
-googlewebfonts: Fira+Code:wght@400;500;700
+googlewebfonts: Noto+Sans:wght@400;700
 lang: en-US
 timezone: London
 repo: https://github.com/reasonableprototype/reasonableprototype.github.io # site repo [optional]
