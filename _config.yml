@@ -19,7 +19,8 @@ author:
 # URL settings
 url: "https://reasonableprototype.github.io" #
 baseurl: # leave blank if not wished
-permalink: /:title
+permalink: "https://reasonableprototype.github.io"
+permalink: pretty
 
 
 markdown: kramdown
