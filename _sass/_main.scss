@@ -349,8 +349,8 @@ main {
 .footer-text {
  font-size: small; 
  color:#a9a9a9;
- margin-right: 1rem;
- margin-left: 1rem;
+ margin-right: 0.5rem;
+ margin-left: 0.5rem;
 }
 
 .social-footer {
@@ -364,6 +364,7 @@ main {
     .fa {
       font-size: 1.3rem;
       color: #a9a9a9;
+      margin-right: 0.3rem;
 
       &:hover {
         color: darken(#a9a9a9, 25%);
