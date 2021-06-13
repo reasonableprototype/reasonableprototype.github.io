@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>El No</title>
+    <description>data + technology + strategy</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 02 Sep 2018 20:15:11 +0100</pubDate>
+    <lastBuildDate>Sun, 02 Sep 2018 20:15:11 +0100</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Defining and implementing product management methods</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.orgvue.com/&quot;&gt;OrgVue&lt;/a&gt; is a cloud-based data analytics software specialising in org modelling. The team behind is 30 developers. Until 2017, it didn’t have a concept of product management or roadmap. As a first product manager for OrgVue, I’ve brought structure and rigour to the ideas to launch process to the team.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-product-roadmap&quot;&gt;1. Product roadmap&lt;/h3&gt;
+
+&lt;p&gt;Pitched to stakeholders on importance of having a roadmap that can be communicated internally and externally, and come up with a sharable product roadmap.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/what-is-product-roadmap.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-backlog-prioritisation-methods&quot;&gt;2. Backlog prioritisation methods&lt;/h3&gt;
+
+&lt;p&gt;Implemented structured process to collect, categorise and prioritse backlog items.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/prioritisation-process.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on the product, used different approach for determining priority.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/prioritisation-model.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-continuous-innovation&quot;&gt;3. Continuous innovation&lt;/h3&gt;
+
+&lt;p&gt;Being a B2B software implemented with advisory (analytics) services, capturing and embedding new IPs from the projects is critical to continuous product innovation. I’ve defined IP-led product innovation process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/ip-led-product-innovation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/2017-10/product-management-methods</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-10/product-management-methods</guid>
+        
+        
+        <category>analytics products</category>
+        
+      </item>
+    
+      <item>
+        <title>Gazing Poetic Sound</title>
+        <description>&lt;p&gt;The project suggests a new way of engaging with the poetic text - observing sound dynamics and patterns in visual forms. It shows a range of phonetic features and relations throughout the Korean lyric poem ‘The night the owl cried’ written by Joonkwan Lee (부흥이 우는 밤, 이준관 시인). 567 Korean letters (‘Hangul’), of which 335 are consonants and 232 are vowels, have been turned into custom symbols and arranged on staves. The visualisation will let you explore the ways the sound works with the meaning. If you don’t understand the Korean language, try and imagine what the meaning might be just by looking at the sounds but really closely.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/gazing-poetic-sound-feature.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.behance.net/gallery/56790403/Gazing-poetic-sound&quot;&gt;Clik here to see full project description and images&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Sep 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/articles/2017-09/gazing-poetic-sound</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-09/gazing-poetic-sound</guid>
+        
+        
+        <category>data vis / design</category>
+        
+      </item>
+    
+      <item>
+        <title>From hypothesis to product enhancements</title>
+        <description>&lt;h4 id=&quot;background&quot;&gt;Background&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.orgvue.com/&quot;&gt;OrgVue&lt;/a&gt; has a number of visualisation and charting features that help visual analysis of data and generate insights. From the previously conducted usability review on all ~30 charting features, it was identified that Chart Matrix which lets you chart multiple measures and dimensions in a flexible way could be improved to better serve user jobs. Initially identified issues included:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Too many functionalities&lt;/li&gt;
+  &lt;li&gt;Interaction between the feature’s colour configuration and main colour configuration is confusing&lt;/li&gt;
+  &lt;li&gt;Legend keys are missing&lt;/li&gt;
+  &lt;li&gt;Some of the functionalities behave differently from other visualisation and charting features in the product&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ve jumped on in-depth investigation to make the case and plan for the development.&lt;/p&gt;
+
+&lt;h4 id=&quot;process&quot;&gt;Process&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Conducted a focus group interview to understand user expectations and pain points&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve invited 5 users who have data analysis background, the user type which this feature is targeting at. The interview was carried out around the following questions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How do you use it?
+    &lt;ul&gt;
+      &lt;li&gt;What are the functionalities you use frequently and rarely?&lt;/li&gt;
+      &lt;li&gt;What are the typical steps you follow to build a chart?&lt;/li&gt;
+      &lt;li&gt;Do you use all inner label options and size by options?&lt;/li&gt;
+      &lt;li&gt;How do you use colour configuration for this feature?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What would make this feature more useful – potential use cases?
+    &lt;ul&gt;
+      &lt;li&gt;Improve clarity in control panel?&lt;/li&gt;
+      &lt;li&gt;Eliminate or hide some of the advanced options?&lt;/li&gt;
+      &lt;li&gt;Add other useful features?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Based on interviews formed hypotheses and possible required actions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/chart-matrix-hypotheses.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Designed a user survey to validate hypotheses and inform decisions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The survey was structured into three parts with open feedback at the end:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Part 1. Product experience and expertise&lt;/li&gt;
+  &lt;li&gt;Part 2. Interpretation of charting outputs&lt;/li&gt;
+  &lt;li&gt;Part 3. Use of each of functionality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;some-of-the-key-findings-from-the-survey&quot;&gt;Some of the key findings from the survey&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;70% of the respondents said they rarely use this feature or never used it, main reasons include “not sure when to use it”, “hard to interpret”, “hard to configure”, “not presentable to client”&lt;/li&gt;
+  &lt;li&gt;Respondents struggled to comprehend the output correctly, i.e. what each element represents - too many values/ aggregates to process at once&lt;/li&gt;
+  &lt;li&gt;Average score for the chart interpretation test is 4.4 out of 7, i.e. 63% accuracy. No noticeable difference found between roles and expertise level&lt;/li&gt;
+  &lt;li&gt;Respondents said they find it hard to configure what they want both in values and formatting&lt;/li&gt;
+  &lt;li&gt;Only 30% respondents were able to correctly how colour buckets work, and many didn’t see the use case for it&lt;/li&gt;
+  &lt;li&gt;‘Size by’ is the least understood feature.
+80% didn’t understand how it works and 70% said they won’t use it. 60% couldn’t explain what the size of the segment represent&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;results-revamped-and-re-launched-the-feature&quot;&gt;Results: Revamped and re-launched the feature&lt;/h4&gt;
+
+&lt;p&gt;With better understanding of the user jobs and their feedback on the feature, we’ve revamped the Chart Matrix feature and it became easier to use and produces more presentable outputs.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Removed some of the advanced technical options that were misleading and/or rarely used&lt;/li&gt;
+  &lt;li&gt;Instead added new functions that would benefit users, such as ability to control axis, different sorting options&lt;/li&gt;
+  &lt;li&gt;Improved control panel so it guides a user through the steps to build a chart&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 01 Sep 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/articles/2017-09/hypothesis-to-enhancements</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-09/hypothesis-to-enhancements</guid>
+        
+        
+        <category>analytics products</category>
+        
+      </item>
+    
+      <item>
+        <title>Building an analytics feature that answer business questions</title>
+        <description>&lt;p&gt;Survival analysis is an statistical method usually used in the medical field as it’s useful in analysing the expected duration of time until an event happen. In HR analtyics, reporting on and predicting (thereby preventing) employee churn (employee turn-over) is one of the important topics. With a data science and engineering team, I’ve built Survival Curves feature into the &lt;a href=&quot;https://www.orgvue.com/&quot;&gt;OrgVue&lt;/a&gt; that doesn’t require data processing or writing codes to get an output.
+This feature now helps many organisations to better understand when and where employee attrition is happening and plan and execute on retention programmes.&lt;/p&gt;
+
+&lt;h4 id=&quot;process&quot;&gt;Process&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Defined objectives and key business questions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To prevent top talent from leaving the organisation,&lt;/li&gt;
+  &lt;li&gt;Understand attrition pattern for a particular time period – when, where and why is happening (Descriptive)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;When&lt;/strong&gt; employees are likely to leave in their tenure&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Where&lt;/strong&gt; attrition is occurring (i.e. which segment has higher flight risk)? &lt;/li&gt;
+      &lt;li&gt;How does the trend differ by group or cohort?&lt;/li&gt;
+      &lt;li&gt;How does the trend change &lt;strong&gt;over time&lt;/strong&gt;?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Who&lt;/strong&gt; is likely to leave in the next year? (Predictive)&lt;/li&gt;
+  &lt;li&gt;What can we do to affect turn-over? (Prescriptive) 
+    &lt;ul&gt;
+      &lt;li&gt;Identify key attributes causing attrition&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Created a list of possible analytics and reporting features can help answer different business questions&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Survival Analysis: for each group shows the percentage of employees that leave after a given tenure probability&lt;/li&gt;
+  &lt;li&gt;Cohort Analysis for retention/ turnover rates : employee lifetime by cohort, actual numbers based on historic data&lt;/li&gt;
+  &lt;li&gt;Attrition drivers / predictors using Decision tree: show top drivers and the degree of influence&lt;/li&gt;
+  &lt;li&gt;Employees with high flight risk : categorise employees based on risk level (likelihood of leaving), show number of employees with high flight risk by dimension&lt;/li&gt;
+  &lt;li&gt;Summary report that shows turn-over related KPIs and changes overtime&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Prioritsed Survival Analysis and defined minimal requirements for release&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Based on investigation of current technical viability and target users’ needs, decided to develop Survival Analysis focusing on the business question: “How the likelihood of staying/ leaving differ by group?”&lt;/p&gt;
+
+&lt;p&gt;Minimal functional requirements included:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Works with the data that contains start and leave dates for each employee&lt;/li&gt;
+  &lt;li&gt;User can toggle between three curves, i.e. Surival, Turnover (Cummulative) and Turnover (Period). The survival function is calculated in the background&lt;/li&gt;
+  &lt;li&gt;If the data has addition dimension such as gender, it draws curve for each group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Control Panel mock-ups:&lt;br /&gt;
+&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-controls-mock-up-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-controls-mock-up-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;exmaple-product-screenshots&quot;&gt;Exmaple product screenshots&lt;/h4&gt;
+
+&lt;p&gt;The image below shows example Survival, Turnover (Cummulative) and Turnover (Period) curves produced for female and male group.&lt;/p&gt;
+
+&lt;style&gt;
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: &quot;&quot;;
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;column&quot;&gt;
+      &lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-1-survival-prop.png&quot; /&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;column&quot;&gt;
+     &lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-2-turnover-prop.png&quot; /&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;column&quot;&gt;
+     &lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/survival-curves-3-trunover-rate.png&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/2017-02/churn-analysis</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-02/churn-analysis</guid>
+        
+        
+        <category>analytics products</category>
+        
+      </item>
+    
+      <item>
+        <title>Understanding the functions of colour in data visualisation</title>
+        <description>&lt;p&gt;&lt;strong&gt;Click the link below to read on&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.orgvue.com/functions-of-colours-in-data-visualisations/&quot;&gt;in English&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://brunch.co.kr/@latebeaver/8&quot;&gt;in Korean&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/2017-02/functions-colour-data-visualisation</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-02/functions-colour-data-visualisation</guid>
+        
+        
+        <category>data stories / blog post</category>
+        
+      </item>
+    
+      <item>
+        <title>Mini vis work using R</title>
+        <description>&lt;style&gt;
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: &quot;&quot;;
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;column&quot;&gt;
+      &lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/gender-pay-gap-london-borough.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;column&quot;&gt;
+     &lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/mobile-screen-sizes-over-time.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;column&quot;&gt;
+     &lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/london-museum-visitors.png&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;column&quot;&gt;
+     &lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/six-supermarkets-london.png&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+   &lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/lubynoel-portfolio/wet-london.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://brunch.co.kr/@latebeaver/3&quot;&gt;Click here  to read more on Rainy Days in London from my blog (Korean)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/2016-12/mini-vis</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2016-12/mini-vis</guid>
+        
+        
+        <category>data vis / data stories</category>
+        
+      </item>
+    
+  </channel>
+</rss>
