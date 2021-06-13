@@ -1,85 +1,73 @@
-site: reasonable prototype
-title: reasonable prototype
-description: >-
-  to be released
-googlewebfonts: Noto+Sans:wght@400;700
-lang: en-US
-timezone: London
-repo: https://github.com/reasonableprototype/reasonableprototype.github.io # site repo [optional]
-data-theme: light # default theme "dark" | "light"
-
-author:
-  name: El No
-  bio: sociologist
-  username: reasonableprototype # general username
-  github: reasonableprototype # github username
-  twitter: reasonableprototype # twitter username
-  email: your-email@email.com # email address
-
-# URL settings
-url: "https://reasonableprototype.github.io" #
-baseurl: # leave blank if not wished
-permalink: "https://reasonableprototype.github.io"
-permalink: pretty
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: El No
+email:
+description: information + technology + society
+url: # the base hostname & protocol for your site
+keywords: ["data","analytics","data visualisation"]
+google_analytics: UA-90199304-2
 
 
-markdown: kramdown
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/London
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-
-exclude:
-  - .jekyll-cache
-  - .obsidian
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - CONTRIBUTING.md
-  
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-relative-links
-
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:slug
-  
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-relative_links:
-  enabled:     true
-  collections: false
-
-
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: El No
+  avatar:
+  job: "information + technology + society"
+  bio:
+  email:
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: #username
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin:
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
