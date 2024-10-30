@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Noel Chung
+title: Chung Noel
 email:
 description: society + technology + space
 url: # the base hostname & protocol for your site
@@ -35,7 +35,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: Noel Chung
+  name: Chung Noel
   avatar:
   job: "society + technology + space"
   bio:
